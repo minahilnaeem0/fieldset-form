@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        fieldset {
+            display: inline-block;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Fieldset work</h1>
+    <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+     <a href="form2.html">form 2</a> 
+     <a href="form3.html">form 3</a>
+     <a href="form4.html">form 4</a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="http://www.example.com/upload.php" method="get"></form>
+    <fieldset >
+        <legend><b>Login Details</b></legend>
+        <label for="name">Name:</label>
+        &nbsp; &nbsp; &nbsp;
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        &nbsp; &nbsp; &nbsp;
+        <input type="text" name="email" id="email">
+        <br>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend><b>Your Feedback</b></legend>
+        <p>Please check all the emotions that apply to you:</p>
+         <label for="emotion"></label>
+         <input type="checkbox" checked>Angry
+         <br>
+         <input type="checkbox">Happy
+         <br>
+         <input type="checkbox">Sad
+         <br>
+         <input type="checkbox">Ambivalent
+         <br>
+         <br>
+         <p>How satisfied were you with our service?</p>
+          <input type="radio" value="very" checked>Very Satisfied
+          <br>
+          <br>
+          <input type="radio" value="not">Not Satisfied
+         
+    </fieldset>
+</body>
+</html>
